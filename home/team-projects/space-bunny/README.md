@@ -32,7 +32,7 @@ Trailer
 * Platform: Android
 * Role: Programmer
 * Team Size: 4
-* Development: 2 Months (3 Hours/day)
+* Development time: 2 Months (3 Hours/day, 2024/10\~2024/12)
 
 ## Game Description
 
