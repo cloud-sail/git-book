@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/SpaceBunny_CoverImage.png
 coverY: 0
 layout:
   cover:
-    visible: true
+    visible: false
     size: hero
   title:
     visible: true
