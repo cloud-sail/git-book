@@ -2,16 +2,12 @@
 
 * [Welcome](README.md)
 
-## Getting Started
+## 🤔 Individual Projects
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Starship](individual-projects/starship.md)
+* [Libra](individual-projects/libra.md)
 
-## Basics
+***
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Team Projects](team-projects/README.md)
+  * [Space Bunny](team-projects/space-bunny.md)
