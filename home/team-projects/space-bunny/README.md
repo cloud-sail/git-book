@@ -23,7 +23,7 @@ layout:
 # 🐰 Space Bunny
 
 {% embed url="https://www.youtube.com/watch?v=cSUHe5dJ1-k" %}
-Trailer
+Launch Trailer
 {% endembed %}
 
 ## Specification
