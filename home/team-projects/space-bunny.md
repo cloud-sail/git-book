@@ -1,2 +1,2 @@
-# Space Bunny
+# 🐰 Space Bunny
 
