@@ -50,6 +50,12 @@ float value = Interpolate(startValue, endVlue, t);
 
 <figure><img src="../../.gitbook/assets/YHe_TGP1_SpaceBunny_Screenshot_06.gif" alt=""><figcaption></figcaption></figure>
 
+
+
+<details>
+
+<summary>BeatScaler.cs</summary>
+
 {% code fullWidth="false" %}
 ```cs
 ...
@@ -99,12 +105,22 @@ IEnumerator ScalePulse()
 ```
 {% endcode %}
 
+
+
+</details>
+
 2. **Meteors.cs**
 
 * Uses easing out function `1 - (1-t)^4` to change the scale of meteors.
 * When players select/deselect a meteor, the meteor will enlarge/shrink.
 
 <figure><img src="../../.gitbook/assets/YHe_TGP1_SpaceBunny_Screenshot_05.gif" alt=""><figcaption></figcaption></figure>
+
+
+
+<details>
+
+<summary>Meteor.cs</summary>
 
 ```csharp
     private IEnumerator ScaleOverTime(float targetScale, float duration)
@@ -131,6 +147,10 @@ IEnumerator ScalePulse()
     }
 ```
 
+
+
+</details>
+
 #### Deviation-based transformations
 
 Camera shake (amplitude decays)
@@ -145,6 +165,12 @@ Camera shake (amplitude decays)
 <figure><img src="../../.gitbook/assets/YHe_TGP1_SpaceBunny_Screenshot_03.png" alt="" width="551"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/YHe_TGP1_SpaceBunny_Screenshot_04.gif" alt=""><figcaption></figcaption></figure>
+
+
+
+<details>
+
+<summary>Wobble.cs</summary>
 
 ```csharp
 using System.Collections;
@@ -325,6 +351,10 @@ public class Wobble : MonoBehaviour
     }
 }
 ```
+
+
+
+</details>
 
 ## Character Mechanics
 
