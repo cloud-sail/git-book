@@ -27,7 +27,7 @@ Hi, I am Yunfan He! Currently, I am learning game programming in SMU Guildhall.
 
 
 
-### Jump right in
+## Projects
 
 
 
@@ -35,6 +35,8 @@ Hi, I am Yunfan He! Currently, I am learning game programming in SMU Guildhall.
 
 
 
-{% embed url="https://www.linkedin.com/in/yunfan-he/" %}
+## Links
 
-[<img src="https://ibb.co/Y0SvS7K" alt="LinkedIn" data-size="line">](https://www.linkedin.com/in/yunfan-he/)
+{% embed url="https://github.com/cloud-sail" %}
+
+{% embed url="https://www.linkedin.com/in/yunfan-he/" fullWidth="false" %}
