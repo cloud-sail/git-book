@@ -21,24 +21,22 @@ To bring dynamic and competitive racing experience, AI cars should act like play
 
 ### AI Controller
 
-* Perception Layer
+* **Perception Layer**
   * Query Spline Point Transformation at a certain distance ahead
   * Raycast to check obstacle in front of the AI car.
-* Decision Layer
+* **Decision Layer**
   * Calculate the throttle, steer, brake, drift according to the spline and the obstacle detection result
   * check if the car is stuck somewhere, then decide whether to reverse.
   * choose the fork in the road
   * use a item or honk.
   * choose random horizontal offset from road center
-* Action Layer
+* **Action Layer**
   * Apply the input to the pawn
 
 ### AI Info Component
 
 * Generate a capsule collider on the parent actor with special collision preset which will block AIPerception trace.
 * AI controller will read the data from raycasted AI Info component.
-
-
 
 ## Important Technical Details
 
