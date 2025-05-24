@@ -24,7 +24,11 @@ HardDriverz is a futuristic arcade racer where players must race against each ot
 * PCG road tools
 * AI
 
+The following link is about the technical skills I learned
 
+{% content-ref url="technical-details/" %}
+[technical-details](technical-details/)
+{% endcontent-ref %}
 
 ## Individual Postmortem
 
